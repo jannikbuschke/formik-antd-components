@@ -1,2 +1,2 @@
 export * from "./ActionButton"
-export * from "./ConfirmActionButton"
+export * from "./Popconfirm"
