@@ -1,6 +1,6 @@
 import React from "react"
 import { action } from "@storybook/addon-actions"
-import { ConfirmAction } from "./ConfirmActionButton"
+import { Popconfirm } from "./Popconfirm"
 import { Formik } from "formik"
 import { Button } from "antd"
 
@@ -11,9 +11,9 @@ export default {
 export const text = () => (
   <div style={{ margin: 200 }}>
     <Formik initialValues={{}} onSubmit={() => {}}>
-      <ConfirmAction title="hello" onConfirm={action("clicked")}>
+      <Popconfirm title="hello" onConfirm={action("clicked")}>
         <Button>😀 😎 👍 💯</Button>
-      </ConfirmAction>
+      </Popconfirm>
     </Formik>
   </div>
 )

@@ -1,14 +1,14 @@
 import React from "react"
 import { Formik } from "formik"
 import { Form } from "formik-antd"
-import SubmitButton from "./submit-button"
+import { ActionButton } from "./ActionButton"
 import * as colors from "@ant-design/colors"
 import { presetPalettes } from "@ant-design/colors"
 
 console.log(presetPalettes)
 
 export default {
-  title: "SubmitButton",
+  title: "ActionButton",
 }
 
 export const text = () => (
@@ -29,9 +29,9 @@ export const text = () => (
                 //   title={preset}
                 //   style={{ height: 30, width: 30, background: color, color: "black" }}
                 // ></div>
-                <SubmitButton style={{ background: color }}>
+                <ActionButton style={{ background: color }}>
                   {color}
-                </SubmitButton>
+                </ActionButton>
               ))
             })}
 
@@ -44,7 +44,7 @@ export const text = () => (
       ))} */}
           </div>
 
-          <SubmitButton>Submit</SubmitButton>
+          <ActionButton>Submit</ActionButton>
         </div>
       </Form>
     </Formik>
