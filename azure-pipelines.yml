@@ -2,6 +2,7 @@ trigger:
 - master
 - beta
 - beta/*
+- alpha
 
 pool:
   vmImage: 'ubuntu-latest'
