@@ -28,7 +28,7 @@
     "prettier": "prettier --write src/**/*.* package.json",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release --branch next --no-ci"
   },
   "dependencies": {
     "@types/react-transition-group": "^4.2.3"
