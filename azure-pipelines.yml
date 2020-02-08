@@ -20,8 +20,8 @@ steps:
     customCommand: 'run test'
 
 - task: Npm@1
-  displayName: 'npm run build'
+  displayName: 'npm run tsc'
   inputs:
     command: custom
     verbose: false
-    customCommand: 'run build'
+    customCommand: 'run tsc'
