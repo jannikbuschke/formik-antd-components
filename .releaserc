@@ -1,4 +1,4 @@
 {
-  "branches": ["master", "next", "beta"]
+  "branches": ["master", "next", "beta",{"name":"alpha",prerelease:true}]
 
 }
