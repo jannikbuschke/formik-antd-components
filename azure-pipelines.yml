@@ -1,6 +1,6 @@
 trigger:
 - master
-- release/*
+- beta
 - beta/*
 
 pool:
