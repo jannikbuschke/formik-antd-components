@@ -4,5 +4,6 @@
     "next",
     "beta",
     { "name": "alpha", "prerelease": true }
-  ]
+  ],
+  "dryRun": true
 }
