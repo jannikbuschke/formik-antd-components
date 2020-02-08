@@ -1,5 +1,4 @@
 {
-  "branches": ["master", "next", "beta"],
-  "debug": true,
-  "dryRun": true
+  "branches": ["master", "next", "beta"]
+
 }
